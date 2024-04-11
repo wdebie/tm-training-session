@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  retroarch-web:
+    image: willemdebie/retroarch-web
+    ports:
+      - "8080:80"
+
